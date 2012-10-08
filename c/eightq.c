@@ -1,4 +1,5 @@
-/* Eight queens solution in C, starting point file */
+/* Eight queens solution in C */
+/* by Dave Burchell, burchell@acm.org */
 
 #include <stdio.h>
 #include <stdlib.h>
