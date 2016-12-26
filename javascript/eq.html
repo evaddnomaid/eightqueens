@@ -1,12 +1,28 @@
+<!doctype html>
 <html>
 <head>
 <title>The Eight Queens</title>
+<script>
+
+function main() {
+    i = 9;
+    i = i + 13;
+    elem = document.getElementById("webe");
+    alert("HELLO");
+    elem.innerHTML = gimmie_more(elem.innerHTML);
+}
+
+function gimmie_more(num) {
+    return num - (-1);
+}
+</script>
 </head>
-<body>
+<body onload="main();">
 <h1>The Eight Queens</h1>
 <p>
 This is a page where we are doing code to solve the problem of the Eight Queens.
 </p>
+<p id="webe">44</p>
 </body>
 </html>
 
